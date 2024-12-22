@@ -48,7 +48,7 @@ Messages are transmitted encrypted to preserve privacy.</p>
 
 ---
 
-<h2 Conclusion</h2>
+<h2Conclusion</h2>
 
 <p>Encrypted-Chat-Multi-user-Python demonstrates the integration of cryptography and network programming in a simple yet practical project. It is a great starting point for developers looking to explore secure communication systems.</p>
 
