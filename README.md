@@ -29,7 +29,8 @@
 
 A secure server with TLS/SSL is configured.
 It listens for incoming connections, handles clients concurrently and relays messages to other connected users.
-It provides a command (!users) to list active users in the chat.
+It provides a command (!users) to list active users in the chat.</p>
+<p></p>
 Client:
 
 Each user connects to the server by entering a username.
@@ -40,10 +41,12 @@ Messages are transmitted encrypted to preserve privacy.</p>
 
 <h2>🎥 Certificates generation</h2>
 <p>You can create the certificates with the next comandas in Linux:</p>
-<code>openssl genpkey -algorithm RSA -out server-key.key -aes256</code>
-<code>openssl req -new -key server-key.key -out server.csr</code>
-<code>openssl x509 -req -days 365 -in server.csr -signkey server-key.key -out server-cert.pem</code>
-<code>openssl rsa -in server-key.key -out server-key.key </code>
+<p><code>openssl genpkey -algorithm RSA -out server-key.key -aes256</code></p>
+<p><code>openssl req -new -key server-key.key -out server.csr</code></p>
+<p><code>openssl x509 -req -days 365 -in server.csr -signkey server-key.key -out server-cert.pem</code></p>
+<p><code>openssl rsa -in server-key.key -out server-key.key </code></p>
+
+
 ---
 
 <h2>🔒 Conclusion</h2>
