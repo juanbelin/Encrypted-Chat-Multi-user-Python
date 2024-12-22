@@ -17,7 +17,6 @@
   <li><strong>client.py</strong>: The client-side script for connecting to the server, sending, and receiving messages.</li>
   <li><strong>README.md</strong>: Project documentation and instructions.</li>
   <li><strong>Example</strong>: Chat real example.</li>
-  <li><strong>requirements.txt</strong>: Dependencies required to run the project including thelibraries.</li>
 </ul>
 
 ---
