@@ -38,7 +38,7 @@ Messages are transmitted encrypted to preserve privacy.</p>
 
 ---
 
-<h2>🎥 Certificates generation</h2>
+<h2>🔒  Certificates generation</h2>
 <p>You can create the certificates with the next comandas in Linux:</p>
 <p><code>openssl genpkey -algorithm RSA -out server-key.key -aes256</code></p>
 <p><code>openssl req -new -key server-key.key -out server.csr</code></p>
@@ -48,7 +48,7 @@ Messages are transmitted encrypted to preserve privacy.</p>
 
 ---
 
-<h2>🔒 Conclusion</h2>
+<h2 Conclusion</h2>
 
 <p>Encrypted-Chat-Multi-user-Python demonstrates the integration of cryptography and network programming in a simple yet practical project. It is a great starting point for developers looking to explore secure communication systems.</p>
 
