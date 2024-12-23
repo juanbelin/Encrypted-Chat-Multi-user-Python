@@ -3,7 +3,7 @@
 
 <h2>📜 Description</h2>
 
-<p><strong>Encrypted-Chat-Multi-user-Python</strong> is a Python-based project designed to enable secure communication between multiple users in real time. The system leverages encryption techniques to ensure messages are protected from unauthorized access during transmission.</p>
+<p><strong>Encrypted-Chat-Multi-user-Python</strong> is a very simple Python-based project designed to enable secure communication between multiple users in real time. The system leverages encryption techniques to ensure messages are protected from unauthorized access during transmission.</p>
 
 <p>This project is ideal for learning about network programming, encryption, and real-time chat system development using Python's powerful libraries such as <code>socket</code> and <code>ssl</code>.</p>
 
